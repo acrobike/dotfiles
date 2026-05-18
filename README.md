@@ -1,4 +1,5 @@
-# TZ's dotfiles (Added May 18, 2026 with no changes)
+# TZ's dotfiles
+(Added May 18, 2026 with no changes)
 
 ![Screenshot of my shell prompt](https://i.imgur.com/EkEtphC.png)
 
