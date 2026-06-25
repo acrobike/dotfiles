@@ -14,3 +14,6 @@ fi
 unset __conda_setup
 # <<< conda initialize <<<
 
+alias python='python3'
+alias pip='pip3'
+alias qwen-coder='/opt/homebrew/bin/llama-cli -m /Users/tzh/models/qwen/Qwen3.6-35B-A3B-UD-Q4_K_XL.gguf -t 0.6 -c 16384 -ngl 99 --top-p 0.95 --top-k 20 --presence-penalty 0.0 --repeat-penalty 1.0 -p "You are a coding assistant."'
