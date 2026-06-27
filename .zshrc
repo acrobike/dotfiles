@@ -16,4 +16,9 @@ unset __conda_setup
 
 alias python='python3'
 alias pip='pip3'
-alias qwen-coder='/opt/homebrew/bin/llama-cli -m /Users/tzh/models/qwen/Qwen3.6-35B-A3B-UD-Q4_K_XL.gguf -t 0.6 -c 16384 -ngl 99 --top-p 0.95 --top-k 20 --presence-penalty 0.0 --repeat-penalty 1.0 -p "You are a coding assistant."'
+
+alias qwen-coder='/opt/homebrew/bin/llama-cli -m /Users/tzh/models/qwen-3_6-27B/Qwen3.6-27B-Q6_K.gguf -t 0.6 -c 16384 -ngl 99 --top-p 0.95 --top-k 20 -sys "You are a coding assistant."'
+
+alias BRVECorpDev='/opt/homebrew/bin/llama-cli -m /Users/tzh/models/gemma-4-26B/gemma-4-26B-A4B-it-UD-Q6_K_XL.gguf -t 0.8 -c 16384 -ngl 99 --top-p 0.95 --top-k 64 -sysf /Users/tzh/code/brve-local-agent/tim-brve-context.md'
+
+alias BRVECorpDev-fast='/opt/homebrew/bin/llama-cli -m /Users/tzh/models/gemma-4-E2B/gemma-4-E2B-it-UD-Q8_K_XL.gguf -t 0.8 -c 4096 -ngl 99 --top-p 0.95 --top-k 64 -sysf /Users/tzh/code/brve-local-agent/tim-brve-context.md'
